@@ -1,0 +1,117 @@
+/* Overide JQM Header*/
+
+.ui-header {
+    height:90px;
+}
+
+.indiedj-title {
+    margin-top: 20px;
+	margin-left: 10px;
+	display: block;
+    font-size: 50px;
+    min-height: 1.1em;
+    outline: 0 none !important;
+    overflow: hidden;
+    padding: 0;
+    text-align: left;
+    text-overflow: clip;
+    white-space: nowrap;
+	font-family:league-gothic;
+}
+
+.inner {
+	margin-top: 0px;
+	font-family:league-gothic;
+	font-size: 40px;
+	outline: 0 none !important;
+	font-weight:normal;
+}
+
+#app-page-sidebar{
+	margin: 0 auto;
+	text-align:center;
+	margin-top:30px;
+}
+
+.ui-grid-a .ui-block-a {
+    width: 15%;
+}
+.ui-grid-a .ui-block-b{
+	width: 85%;
+}
+
+img.scale-with-grid {
+		max-width: 100%;
+		height: auto; }
+		
+#play{
+	margin-left:20px;
+}
+#pause{
+	margin-left:20px;
+}		
+/* Bigger than standard 960 (devices and browsers) */
+@media only screen and (min-width: 960px) {}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	.ui-grid-a .ui-block-a {
+	    width: 20%;
+	}
+	.ui-grid-a .ui-block-b{
+		width: 80%;
+	}
+	
+	
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	.ui-grid-a .ui-block-a {
+	    width: 20%;
+	}
+	.ui-grid-a .ui-block-b{
+		width: 80%;
+	}
+	
+	
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	.ui-grid-a .ui-block-a {
+	    width: 30%;
+	}
+	.ui-grid-a .ui-block-b{
+		width: 70%;
+	}
+	#play{
+	margin-left:5px;
+	}
+	#pause{
+		margin-left:5px;
+	}
+}
+
+div.ui-slider {
+    display: inline-block;
+    height: 30px;
+    margin: 5px 2% 0 0px;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    top: 4px;
+    width: 96%;
+	background-color:#000;
+	
+}
+
+ div.ui-slider-bg {
+    background-color:#000;
+	
+}
+
+
